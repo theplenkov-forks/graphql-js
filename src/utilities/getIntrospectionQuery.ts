@@ -85,12 +85,12 @@ export function getIntrospectionQuery(options?: IntrospectionOptions): string {
       return '';
     }
     if (level > 100) {
-      throw new Error("Please set typeDepth to a reasonable value; the default is 9.");
+      throw new Error('Please set typeDepth to a reasonable value; the default is 9.');
     }
     return `
 ${indent}ofType {
 ${indent}  name
-${indent}  kind${ofType(level - 1, indent + "  ")}
+${indent}  kind${ofType(level - 1, indent + '  ')}
 ${indent}}`;
   }
 
@@ -162,7 +162,7 @@ ${indent}}`;
 
     fragment TypeRef on __Type {
       kind
-      name${ofType(optionsWithDefault.typeDepth ?? 9, "      ")}
+      name${ofType(optionsWithDefault.typeDepth ?? 9, '      ')}
     }
   `;
 }
