@@ -50,7 +50,7 @@
     "gitpublish:deno": "bash ./resources/gitpublish.sh deno denoDist"
   },
   "devDependencies": {
-    "@babel/core": "7.17.9",
+    "@babel/core": "7.29.7",
     "@babel/plugin-syntax-typescript": "7.16.7",
     "@babel/plugin-transform-typescript": "7.16.8",
     "@babel/preset-env": "7.16.11",
@@ -71,7 +71,7 @@
     "eslint-plugin-react-hooks": "4.4.0",
     "eslint-plugin-simple-import-sort": "7.0.0",
     "eslint-plugin-tsdoc": "0.2.16",
-    "mocha": "9.2.2",
+    "mocha": "12.0.3",
     "prettier": "2.6.2",
     "typescript": "4.6.3"
   },
